@@ -12,17 +12,17 @@ Determinar, a partir de variables biométricas (glucosa, presión arterial, IMC,
 
 ## Contenido del notebook
 
-1. **Carga y exploración de datos** — inspección inicial y estadísticas descriptivas.
-2. **Limpieza de datos** — eliminación de valores 0 biológicamente imposibles en glucosa, presión arterial, IMC e insulina (dataset final: 392 casos).
-3. **Análisis exploratorio** — matriz de correlación y distribución de clases (66.8% negativos / 33.2% positivos).
-4. **Modelado** — entrenamiento de Regresión Logística y Random Forest sobre un split 80/20.
-5. **Evaluación** — métricas (Accuracy, Precision, Recall, F1) y validación cruzada estratificada (5-fold).
-6. **Ajuste de umbral de decisión** — análisis de un umbral más sensible (15%) para priorizar la detección de casos positivos.
-7. **Conclusiones** — comparación de modelos y discusión de resultados.
+1. **Carga y exploración de datos** : inspección inicial y estadísticas descriptivas.
+2. **Limpieza de datos** : eliminación de valores 0 biológicamente imposibles en glucosa, presión arterial, IMC e insulina (dataset final: 392 casos).
+3. **Análisis exploratorio** : matriz de correlación y distribución de clases (66.8% negativos / 33.2% positivos).
+4. **Modelado** : entrenamiento de Regresión Logística y Random Forest sobre un split 80/20.
+5. **Evaluación** : métricas (Accuracy, Precision, Recall, F1) y validación cruzada estratificada (5-fold).
+6. **Ajuste de umbral de decisión** : análisis de un umbral más sensible (15%) para priorizar la detección de casos positivos.
+7. **Conclusiones** : comparación de modelos y discusión de resultados.
 
 ## Resultados principales
 
-Ambos modelos obtienen un desempeño similar (Accuracy ≈ 0.78), sin una diferencia estadísticamente clara entre ellos según la validación cruzada. Random Forest muestra una ligera ventaja en Recall y F1, pero dentro del margen de desvío estándar. El ajuste de umbral resultó más determinante que la elección del modelo para mejorar la detección de casos positivos.
+Ambos modelos obtienen un desempeño similar (Accuracy ≈ 0.78), sin una diferencia estadísticamente clara entre ellos según la validación cruzada. Random Forest muestra una ligera ventaja en Recall y F1, pero dentro del margen de la desviación estándar. El ajuste de umbral resultó más determinante que la elección del modelo para mejorar la detección de casos positivos.
 
 ## Requisitos
 

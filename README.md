@@ -1,6 +1,6 @@
 # Predicción de Diabetes con Machine Learning
 
-Trabajo final del curso *Deep Learning Spring School*. El proyecto aplica técnicas de clasificación binaria para predecir la presencia de diabetes a partir de datos clínicos y fisiológicos.
+Trabajo final del curso *Machine Learning con Python*. El proyecto aplica técnicas de clasificación binaria para predecir la presencia de diabetes a partir de datos clínicos y fisiológicos.
 
 ## Objetivo
 

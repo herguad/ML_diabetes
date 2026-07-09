@@ -22,7 +22,7 @@ Determinar, a partir de variables biométricas (glucosa, presión arterial, IMC,
 
 ## Resultados principales
 
-Ambos modelos obtienen un desempeño similar (Accuracy ≈ 0.78), sin una diferencia estadísticamente clara entre ellos según la validación cruzada. Random Forest muestra una ligera ventaja en Recall y F1, pero dentro del margen de la desviación estándar. El ajuste de umbral resultó más determinante que la elección del modelo para mejorar la detección de casos positivos.
+Ambos modelos obtienen un desempeño similar (Accuracy ≈ 0.78) y no presentan una diferencia estadísticamente clara según la validación cruzada. Random Forest muestra una ligera ventaja en Recall y F1, pero dentro del margen de la desviación estándar. El ajuste del umbral resultó más determinante que la elección del modelo para mejorar la detección de casos positivos.
 
 ## Requisitos
 
